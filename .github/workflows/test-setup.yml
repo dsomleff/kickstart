@@ -1,0 +1,25 @@
+name: Test macOS Setup
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+jobs:
+  setup:
+    runs-on: macos-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up the environment (Install Homebrew, Git, etc.)
+      - name: Set up Homebrew, Git, and run the kickstart script
+        run: |
+          # Make the script executable
+          chmod +x kickstart.sh
+
+          # Run the kickstart script
+          ./kickstart.sh
