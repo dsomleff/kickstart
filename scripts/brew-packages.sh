@@ -36,7 +36,7 @@ brew install --cask webstorm
 
 # Install fonts
 echo "🖋️ Installing fonts..."
-brew install --cask font-jetbrains-mono
+brew install --cask font-jetbrains-mono-nerd-font
 
 
 # Install other tools
