@@ -36,7 +36,6 @@ brew install --cask webstorm
 
 # Install fonts
 echo "🖋️ Installing fonts..."
-brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono
 
 
