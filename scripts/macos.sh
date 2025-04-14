@@ -77,10 +77,9 @@ defaults write com.apple.dock expose-group-by-app -bool false
 defaults write com.apple.dock minimize-to-application -bool true
 
 # Set the default web browser for HTTP/HTTPS
-defaults write ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist LSHandlers -array-add '{ \
-    LSHandlerContentType = "public.html"; \
-    LSHandlerRoleAll = "company.thebrowser.browser"; \
-}'
+defaults write ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist LSHandlers -array-add \
+    '{ LSHandlerContentType = "public.html"; LSHandlerRoleAll = "company.thebrowser.browser"; }'
+
 
 ################################################################################
 # System Preferences > Keyboard & Trackpad

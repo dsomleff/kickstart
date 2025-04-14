@@ -22,7 +22,7 @@ source "$SCRIPT_DIR/scripts/dotfiles.sh"
 echo "🎯 Sourcing stow.sh to create most symlinks..."
 source "$SCRIPT_DIR/scripts/stow.sh"
 
-echo "🎯 Sourcing macos.sh to setup macOS preferences..."
+echo "💻 Sourcing macos.sh to setup macOS preferences..."
 source "$SCRIPT_DIR/scripts/macos.sh"
 
 echo "✅ Kickstart complete! Your mac is ready! 🤘"
