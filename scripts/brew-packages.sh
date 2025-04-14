@@ -21,7 +21,7 @@ brew install fd
 brew install ripgrep
 brew install nushell
 brew install fnm
-# brew install git
+brew install git
 # brew install zsh
 
 # Install development tools
