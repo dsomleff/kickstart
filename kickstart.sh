@@ -11,4 +11,10 @@ source "$SCRIPT_DIR/scripts/brew.sh"
 echo "🔧 Sourcing brew-packages.sh to install packages..."
 source "$SCRIPT_DIR/scripts/brew-packages.sh"
 
+# Source git.sh to install git
+echo "🫛 Sourcing git.sh to install git..."
+source "$SCRIPT_DIR/scripts/git.sh"
 
+# Source dotfiles.sh to install git
+echo "📂 Sourcing dotfiles.sh to install dotfiles..."
+source "$SCRIPT_DIR/scripts/dotfiles.sh"
