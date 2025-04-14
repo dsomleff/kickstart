@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Check if Git is installed
 if ! command -v git &> /dev/null; then
     echo "🚨 Git not found. Installing Git... 🫛"

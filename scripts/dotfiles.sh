@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Define the dotfiles repository URL
 DOTFILES_REPO="https://github.com/dsomleff/dotfiles"
 DOTFILES_DIR="$HOME/dotfiles"

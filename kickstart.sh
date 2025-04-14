@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -e
+
+echo "🚀 Starting macOS kickstart..."
+
 # Define the script directory (relative path)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -18,3 +22,9 @@ source "$SCRIPT_DIR/scripts/git.sh"
 # Source dotfiles.sh to install git
 echo "📂 Sourcing dotfiles.sh to install dotfiles..."
 source "$SCRIPT_DIR/scripts/dotfiles.sh"
+
+# Source stow.sh to install git
+echo "🎯 Sourcing stow.sh to install stow..."
+source "$SCRIPT_DIR/scripts/stow.sh"
+
+echo "✅ Kickstart complete! Your mac is ready! 🤘"

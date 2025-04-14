@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Upgrade Homebrew to ensure everything is up-to-date
 echo "🍺 Upgrading Homebrew..."
 brew upgrade
