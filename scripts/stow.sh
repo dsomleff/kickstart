@@ -13,7 +13,8 @@ ln -sf "$DOTFILES_DIR/.ideavimrc" "$HOME/.ideavimrc"
 ln -sf "$DOTFILES_DIR/githelpers" "$HOME/githelpers"
 
 echo "🔗 Stowing config directories..."
-stow --dir="$DOTFILES_DIR/.config" --target="$HOME/.config" --verbose alacritty nvim tmux yazi starship
+stow --dir="$DOTFILES_DIR/.config" --target="$HOME/.config" --verbose alacritty nvim tmux starship
+stow --dir="$DOTFILES_DIR/.config" --target="$HOME/.config" --verbose yazi
 
 
 echo "🎯 Stowing local scripts..."
