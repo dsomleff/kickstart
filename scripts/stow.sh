@@ -11,6 +11,8 @@ ln -sf "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
 ln -sf "$DOTFILES_DIR/.gitignore_global" "$HOME/.gitignore_global"
 ln -sf "$DOTFILES_DIR/.ideavimrc" "$HOME/.ideavimrc"
 ln -sf "$DOTFILES_DIR/githelpers" "$HOME/githelpers"
+ln -sf "$DOTFILES_DIR/.gitconfig.code" "$HOME/gitconfig.code"
+ln -sf "$DOTFILES_DIR/.gitconfig.pets" "$HOME/gitconfig.pets"
 
 echo "🔗 Stowing config directories..."
 stow --dir="$DOTFILES_DIR/.config" --target="$HOME/.config" --verbose alacritty nvim tmux starship
