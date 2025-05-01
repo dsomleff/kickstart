@@ -24,7 +24,11 @@ brew install ripgrep
 brew install nushell
 brew install fnm
 brew install git
+# brew install zsh-autosuggestions
+# brew install zsh-syntax-highlighting
 # brew install zsh
+# brew install eza
+# brew install lazygit
 
 # Install development tools
 echo "💻 Installing development tools..."
