@@ -24,6 +24,7 @@ brew install ripgrep
 brew install nushell
 brew install fnm
 brew install git
+brew install tlrc
 # brew install zsh-autosuggestions
 # brew install zsh-syntax-highlighting
 # brew install zsh
