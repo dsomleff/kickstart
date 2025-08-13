@@ -9,22 +9,22 @@ brew upgrade
 # Install CLI tools
 echo "⚙️ Installing CLI tools..."
 brew install fzf
-brew install zoxide
+# brew install zoxide
 brew install neovim
 brew install tmux
 brew install tmuxp
 brew install stow
 brew install wget
-brew install bat
-brew install yazi
+# brew install bat
+# brew install yazi
 brew install starship
 brew install tree-sitter
-brew install fd
-brew install ripgrep
+# brew install fd
+# brew install ripgrep
 brew install nushell
 brew install fnm
 brew install git
-brew install tlrc
+# brew install tlrc
 # brew install zsh-autosuggestions
 # brew install zsh-syntax-highlighting
 # brew install zsh
