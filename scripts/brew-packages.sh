@@ -17,13 +17,13 @@ brew install starship
 brew install tree-sitter
 brew install nushell
 brew install git
+brew install fnm
 # brew install wget
 # brew install bat
 # brew install yazi
 # brew install zoxide
 # brew install fd
 # brew install ripgrep
-# brew install fnm
 # brew install tlrc
 # brew install zsh-autosuggestions
 # brew install zsh-syntax-highlighting
