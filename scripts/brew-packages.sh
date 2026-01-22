@@ -18,18 +18,18 @@ brew install tree-sitter
 brew install nushell
 brew install git
 brew install fnm
+brew install fd
+brew install lazygit
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 # brew install wget
 # brew install bat
 # brew install yazi
 # brew install zoxide
-# brew install fd
 # brew install ripgrep
 # brew install tlrc
-# brew install zsh-autosuggestions
-# brew install zsh-syntax-highlighting
 # brew install zsh
 # brew install eza
-# brew install lazygit
 
 # Install development tools
 echo "💻 Installing development tools..."
