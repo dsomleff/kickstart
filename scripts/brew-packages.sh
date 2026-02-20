@@ -20,7 +20,7 @@ brew install git
 brew install fnm
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
-# brew install fd
+brew install fd
 # brew install lazygit
 # brew install wget
 # brew install bat
