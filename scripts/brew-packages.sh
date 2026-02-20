@@ -18,10 +18,10 @@ brew install tree-sitter
 brew install nushell
 brew install git
 brew install fnm
-brew install fd
-brew install lazygit
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
+# brew install fd
+# brew install lazygit
 # brew install wget
 # brew install bat
 # brew install yazi
@@ -45,7 +45,6 @@ brew install --cask webstorm
 echo "🖋️ Installing fonts..."
 brew install --cask font-jetbrains-mono-nerd-font
 
-
 # Install other tools
 echo "🛠️ Installing other tools..."
 brew install --cask telegram
@@ -56,4 +55,3 @@ echo "🧹 Cleaning up outdated versions..."
 brew cleanup
 
 echo "🎉 All packages installed successfully!"
-
