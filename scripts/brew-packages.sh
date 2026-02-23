@@ -21,6 +21,7 @@ brew install fnm
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 brew install fd
+brew install carapace
 # brew install lazygit
 # brew install wget
 # brew install bat
