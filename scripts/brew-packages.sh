@@ -50,6 +50,9 @@ echo "🛠️ Installing other tools..."
 brew install --cask telegram
 # brew install --cask notion
 
+# Install langs
+brew install luajit
+brew install go
 # Clean up outdated versions from the cellar
 echo "🧹 Cleaning up outdated versions..."
 brew cleanup
