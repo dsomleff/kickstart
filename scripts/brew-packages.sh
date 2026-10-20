@@ -32,24 +32,30 @@ brew install carapace
 brew install zsh
 brew install eza
 
-# Install development tools
-echo "💻 Installing development tools..."
-brew install --cask alacritty
-brew install insomnia
-brew install raycast
-brew install --cask arc
-brew install --cask webstorm
-# brew install --cask rancher
-# brew install --cask docker
+# Install development tools and casks (skipped in CI environment)
+if [ "$CI" != "true" ]; then
+  echo "💻 Installing development tools..."
+  # Note: alacritty cask is currently disabled by Homebrew due to Gatekeeper issues.
+  # Install manually from GitHub Releases if needed.
+  # brew install --cask alacritty
+  brew install insomnia
+  brew install raycast
+  brew install --cask arc
+  brew install --cask webstorm
+  # brew install --cask rancher
+  # brew install --cask docker
 
-# Install fonts
-echo "🖋️ Installing fonts..."
-brew install --cask font-jetbrains-mono-nerd-font
+  # Install fonts
+  echo "🖋️ Installing fonts..."
+  brew install --cask font-jetbrains-mono-nerd-font
 
-# Install other tools
-echo "🛠️ Installing other tools..."
-brew install --cask telegram
-# brew install --cask notion
+  # Install other tools
+  echo "🛠️ Installing other tools..."
+  brew install --cask telegram
+  # brew install --cask notion
+else
+  echo "⏩ Skipping macOS GUI applications/casks in CI environment..."
+fi
 
 # Install langs
 brew install luajit
