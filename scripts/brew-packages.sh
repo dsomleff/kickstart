@@ -29,8 +29,8 @@ brew install carapace
 # brew install zoxide
 # brew install ripgrep
 # brew install tlrc
-# brew install zsh
-# brew install eza
+brew install zsh
+brew install eza
 
 # Install development tools
 echo "💻 Installing development tools..."
